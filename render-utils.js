@@ -7,6 +7,9 @@ export function renderListItem(animal) {
     const img = document.createElement('img');
     img.src = `./assets/${animal.type}.svg`;
 
+    const a = document.createElement('a');
+    a.href = `./animals/`
+
     const nameSpan = document.createElement('span');
     nameSpan.textContent = animal.name;
     nameSpan.classList.add('name');
