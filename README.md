@@ -1,3 +1,13 @@
+alright
+
+These animals need event listeners added to their elements, which means i have to find where they are being looped and rendered and add an event listener to the element.
+
+It's not an event listener! it's an anchor created in the renderanimals function that is appended to every item in the animaldiv-- the href is to the animals page, and we have to take the id from the object in the array in order to feed the HTML on the animals/index page. I need to revisit the tutorial on this, but first i'm going to make animals/index.html..
+
+
+
+
+
 # Alchemy's Web
 
 ## Demo
